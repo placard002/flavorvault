@@ -1,0 +1,19 @@
+{
+  "name": "folio-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "pg": "^8.13.1",
+    "@electric-sql/pglite": "^0.2.15",
+    "uuid": "^11.0.3"
+  }
+}
